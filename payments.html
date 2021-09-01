@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawakad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet"> 
+</head>
+<body class="p-0">
+    <div class="d-flex">
+        <div class="border-right sidebar">
+            <div class="sidebar-inner">
+                <div class="logo p-3 bg-white" style="height: 13vh;">
+                    <img class="img-fluid" src="assets/img/brand/Logo.svg" /> 
+                </div>
+                <div class="list pt-5 sidebar-wrapper">
+                    <ul class="sidebar p-0">
+                       <li class="p-3 bar-item active">
+                           <a href="dashboard.html" class="d-flex ml-4 ">
+                              <img src="assets/imgs/icons/home.svg" /> 
+                              <span class="align-self-center pl-3">Dashboard</span> 
+                            </a> 
+                        </li> 
+                       <li class="p-3 bar-item">
+                          <a href="payments.html" class="d-flex ml-4">
+                            <img src="assets/imgs/icons/transaction 1.svg" /> 
+                            <span class="align-self-center pl-3">Transaction</span>  
+                          </a> 
+                        </li> 
+                       <li class="p-3 bar-item">
+                           <a href="withdrawal.html" class="d-flex ml-4">
+                                <img src="assets/imgs/icons/credit-card 1.svg" /> 
+                                <span class="align-self-center pl-3">Payment</span>
+                            </a> 
+                        </li> 
+                       <li class="p-3 bar-item">
+                           <a href="collections.html" class="d-flex ml-4 ">
+                            <img src="assets/imgs/icons/user (1) 1.svg" /> 
+                                <span class="align-self-center pl-3">My Profile</span>
+                           </a> 
+                        </li> 
+                       <li class="p-3 bar-item"> 
+                          <a href="collection-report.html" class="d-flex ml-4">
+                             <img src="assets/imgs/icons/settings (1) 1.svg" /> 
+                             <span class="align-self-center pl-3">Settings</span> 
+                          </a> 
+                        </li> 
+                    </ul>
+                </div>
+            </div>                
+        </div>
+        <div class="p-0 right-side">
+            <nav class="bg-white user-panel shadow position-fixed w-100" style="height: 13vh;z-index: 100;">
+                <div class="d-flex justify-content-between align-items-center h-100 inner-header">
+                    <div class="p-3">
+                        <h4 style="color: #00373E;">Dashboard</h4>
+                    </div>
+                    <div class="p-3">
+                        <div class="border-radius-1 border-1 p-2 d-flex search-bar">
+                            <img src="assets/imgs/icons/search.svg" class="mr-2" />
+                            <input class="w-100 bg-inherit" type="type" placeholder="Search" />
+                        </div>                        
+                    </div>
+                    <div class="d-flex align-items-center h-100 d-mini-none">
+                        <div class=" p-3">
+                            <img src="assets/imgs/icons/notification.svg" />
+                        </div>
+                        <div class="p-3">
+                            <span class=" border-right">&nbsp;</span>
+                        </div>
+                        <div class="text-right p-3">
+                            <h6>James Supardir</h6>
+                            <span>@iamsupardir</span>
+                        </div>
+                    </div>
+                    <div class="p-3 mobile-menu">
+                        <a href="javascript:void(0);" onclick="myFunction()">
+                            <img src="assets/imgs/utils/menu.svg" width="30px" />
+                        </a>                        
+                    </div>
+                </div> 
+                <div id="myLinks">
+                    <a href="#" class="p-2">Home</a>
+                    <a href="payments.html" class="p-2">Payments</a>
+                    <a href="withdrawal.html" class="p-2">Withdrawals</a>
+                </div> 
+            </nav>
+            <div class="container-fluid pt-4 body-wrap mb-5">
+                <div class="mt-5 pt-5 px-3">
+                    <div class="row pt-3">
+
+                            <div class="col-md-4">
+                                <div class="border rounded-1 d-flex p-2 mb-3 shadow">
+                                    <div class="align-self-center p-2">
+                                        <img src="assets/imgs/utils/tf.svg" width="80px" />
+                                    </div>
+                                    <div class="p-1">
+                                        <h5 class="mb-0">Transfer funds</h5>
+                                        <span class="">
+                                            You’re a Micro Banker now! Kick off your banking path by creating your first
+                                        </span>
+                                    </div>                              
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="border rounded-1 d-flex p-2 mb-3 shadow">
+                                    <div class="align-self-center p-2">
+                                        <img src="assets/imgs/utils/fw.svg" width="80px" />
+                                    </div>
+                                    <div class="p-2">
+                                        <h5 class="mb-0">Fund Wallet</h5>
+                                        <span class="">
+                                            You’re a Micro Banker now! Kick off your banking path by creating your first
+                                        </span>
+                                    </div>                              
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="border rounded-1 d-flex p-2 mb-3 shadow">
+                                    <div class="align-self-center p-2">
+                                        <img src="assets/imgs/utils/wf.svg" width="80px" />
+                                    </div>
+                                    <div class="p-2">
+                                        <h5 class="mb-0">Withdraw funds</h5>
+                                        <span class="">
+                                            You’re a Micro Banker now! Kick off your banking path by creating your first
+                                        </span>
+                                    </div>                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-3">
+                        <div class="col-md">
+                            <h4 class="text-muted">Payment List</h4>
+                        </div>   
+                        <div class="row p-3">
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/airtime.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Airtime</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/data.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Buy Data</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/voucher.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Toll Gate</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/electricity.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Eelectricity</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/cable.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Cable TV</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/betting.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Betting</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3" >
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/internet-pin.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Internet Pin</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/insurance.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Insurance</h6>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 mb-3">
+                                <div class="card shadow text-center p-3">
+                                    <div class="mb-2">
+                                        <img src="assets/imgs/utils/exam-pin.svg" width="120px"/>
+                                    </div>                                    
+                                    <h6>Exam PIN</h6>
+                                </div>
+                            </div>
+                        </div>                         
+                    </div>
+                </div>
+              </div>
+            
+        </div>
+    </div>
+</body>
+</html>
