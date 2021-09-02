@@ -154,6 +154,9 @@ h1,h2,h3,h4,h5,h6{
     .right-login{
         width: 100% !important;
     }
+    .img-fluid{
+        width: 80% !important;
+    }
 }
 
 @media screen and (max-width:425px)
@@ -172,5 +175,9 @@ h1,h2,h3,h4,h5,h6{
     }
     .mobile-menu{
         display: block;
+    }
+
+    .img-fluid{
+        
     }
 }
